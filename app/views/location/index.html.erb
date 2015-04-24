@@ -1,0 +1,4 @@
+<h1>Test banner:</h1>
+<% if @image -%>
+    <a href="/count/<%="#{@image.id}"%>"><%= image_tag @image.banner.url(:large) %></a>
+<% end -%>

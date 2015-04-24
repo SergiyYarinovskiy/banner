@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yarinovskiy</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<ul class="nav nav-tabs">
+  <li class="active">
+    <a href="/admin"><button class="btn btn-default">Sign in</button></a>
+  </li>
+</ul>
+<div class="container">
+  <%= yield %>
+</div>
+
+
+</body>
+</html>

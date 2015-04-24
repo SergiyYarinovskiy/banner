@@ -1,0 +1,13 @@
+== README
+
+Things you may want to cover:
+
+* Install ImageMagic for paperclip
+
+* Default admin:
+    User: admin@example.com
+    Password: password
+
+* For test location url should be:
+    http://localhost:<local_server_port>/
+
